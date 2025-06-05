@@ -1,0 +1,53 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+
+# Kotlin build directories
+build/
+.gradle/
+.gradle/**/*
+.kotlin/
+
+# Spring Boot specific
+target/
+*.jar
+*.war
+*.ear
+
+# Compiled output
+/bin/
+/out/
+/classes/
+
+# Log files
+*.log
+
+Claude
+
+# Local configuration files
+local.properties
+
+# Dependency directories
+/external/
+/libs/
+
+# macOS specific
+.DS_Store
+
+# Miscellaneous
+*.swp
+*.swo
+*~
+
+# Example app
+node_modules/
+package-lock.json
+
+project-data
+archive/
+
+*.properties
+!application.properties
+!application-example.properties
+!gradle.properties
